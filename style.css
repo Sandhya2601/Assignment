@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;0,900;1,100&display=swap');
+
+body{
+    padding:0%;
+    margin:0%;
+    font-family:"Roboto";
+}
+
+.navbar-brand{
+    font-family: 'Roboto';
+    font-size: 35px;
+    color: lightcoral !important;
+}
+
+.nav-link{
+    font-size:16px;
+    margin:15px;
+    color: black !important;    
+}
+.nav-link:hover{
+    color:#00E8E8 !important;
+}
+.active .nav-link{
+    color:#00E8E8 !important;
+}
+.site-content{
+    background-image:url('https://mallikarjun-hub.github.io/feecvr/images/cvr-mainblock.jpg');
+    background-attachment:fixed;
+    background-size:cover;
+  
+}
+.site-title,.site-desc{
+    color: white;
+    font-family:'ital';
+} 
+.site-title{
+    color:blue;
+    margin-top:30%;
+    margin-bottom:6%;
+    font-size:50px;
+}
+
+.site-btn1{
+    margin-left:20%;
+    background-color:black;
+    color:white;
+}
+.site-btn2{
+
+    background-color:white;
+    
+} 
+.site-btn1,.site-btn2{
+    margin-top:5%;
+    margin-bottom:5%;
+} 
+.me{
+    text-align: left;
+}
